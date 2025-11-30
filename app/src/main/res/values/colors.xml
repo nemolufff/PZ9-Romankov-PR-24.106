@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tv_dark_blue">#030975</color>
+    <color name="tv_blue">#3400A3</color>
+    <color name="tv_gray_light">#D9D9D9</color>
+    <color name="tv_gray_dark">#838383</color>
+    <color name="tv_purple">#AA30A9</color>
+    <color name="tv_creamy">#FDF7E0</color>
+    <color name="tv_red">#FF0001</color>
+    <color name="tv_yellow">#FBFF22</color>
+
+</resources>
