@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">PZ9-Romankov-PR-24.106</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="sign_in">sign in</string>
+    <string name="desc_logo">logo</string>
+    <string name="desc_user_icon">user icon</string>
+    <string name="desc_password_icon">password icon</string>
+    <string name="albums_title">Альбомы</string>
+    <string name="album_image">album image</string>
+    <string name="logo_desc">logo</string>
+    <string name="title_popular_songs">Самые популярные песни 2020</string>
+    <string name="song_krash">Краш</string>
+    <string name="artist_niletto">NILETTO</string>
+    <string name="duration_krash">03:32</string>
+    <string name="song_yagoda_malinka">Ягода малинка</string>
+    <string name="artist_habib">ХАБИБ</string>
+    <string name="duration_yagoda">03:51</string>
+    <string name="song_pokinula_chat">Покинула чат</string>
+    <string name="artist_klava_koka">Клава Кока</string>
+    <string name="duration_pokinula_chat">03:23</string>
+    <string name="song_pikachu">Пикачу</string>
+    <string name="artist_egor_ship">ЕГОР ШИП</string>
+    <string name="duration_pikachu">03:46</string>
+    <string name="song_unost">Юность</string>
+    <string name="artist_dabro">DABRO</string>
+    <string name="duration_unost">03:57</string>
+    <string name="song_grustinka">Грустинка</string>
+    <string name="duration_grustinka">03:12</string>
+    <string name="song_malinovaya_lada">Малиновая Лада</string>
+    <string name="artist_gayazovs_brothers">GAYAZOVS BROTHERS</string>
+    <string name="duration_malinovaya_lada">03:35</string>
+    <string name="album_logo_desc">Logo</string>
+    <string name="song_image_desc">Song image</string>
+    <string name="song_title_full">Ягода малинка - ХАБИБ</string>
+    <string name="song_line_1">Ягода Малинка, оп</string>
+    <string name="song_line_2">-оп-оп</string>
+    <string name="song_line_3">Крутит головой, залетает в топ</string>
+    <string name="player_logo_desc">Player logo</string>
+    <string name="player_image_desc">Player background</string>
+
 </resources>
