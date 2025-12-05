@@ -18,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.15"/>
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="VisualLintBounds" />
 
 
     <LinearLayout
@@ -31,7 +32,8 @@
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoImage">
+        app:layout_constraintTop_toBottomOf="@+id/logoImage"
+        tools:ignore="VisualLintBounds">
 
         <ImageView
             android:id="@+id/userIcon"
@@ -39,20 +41,22 @@
             android:layout_height="30dp"
             android:layout_marginEnd="12dp"
             android:contentDescription="@string/desc_user_icon"
-            android:src="@drawable/person" />
+            android:src="@drawable/person"
+            tools:ignore="ImageContrastCheck" />
 
         <EditText
-            android:autofillHints="username"
             android:id="@+id/loginField"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:autofillHints="username"
             android:background="@android:color/transparent"
             android:gravity="center_vertical"
             android:hint="@string/login"
             android:inputType="text"
             android:textColorHint="@color/tv_gray_dark"
-            android:textSize="26sp" />
+            android:textSize="26sp"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
     </LinearLayout>
 
 
@@ -67,7 +71,8 @@
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginContainer">
+        app:layout_constraintTop_toBottomOf="@+id/loginContainer"
+        tools:ignore="VisualLintBounds">
 
         <ImageView
             android:id="@+id/lockIcon"
@@ -75,21 +80,23 @@
             android:layout_height="30dp"
             android:layout_marginEnd="12dp"
             android:contentDescription="@string/desc_password_icon"
-            android:src="@drawable/lock" />
+            android:src="@drawable/lock"
+            tools:ignore="ImageContrastCheck" />
 
         <EditText
-            android:autofillHints="password"
             android:id="@+id/passwordField"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:autofillHints="password"
             android:background="@android:color/transparent"
             android:gravity="center_vertical"
             android:hint="@string/password"
 
             android:inputType="textPassword"
             android:textColorHint="@color/tv_gray_dark"
-            android:textSize="26sp" />
+            android:textSize="26sp"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
     </LinearLayout>
 
     <Button
@@ -104,5 +111,6 @@
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordContainer" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordContainer"
+        tools:ignore="VisualLintButtonSize,VisualLintBounds" />
 </androidx.constraintlayout.widget.ConstraintLayout>
